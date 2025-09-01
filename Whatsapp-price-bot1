@@ -1,0 +1,22 @@
+git clone https://github.com/nawfapul-hub/Whatsapp-price-bot.git
+cd Whatsapp-price-bot
+
+# Copy the bot scaffold into this folder.
+# (You can copy from the `Whatsapp-price-bot-ready-repo` I prepared.)
+# For clarity, ensure this structure:
+
+# whatsapp-price-bot/
+# ├── api/
+# │   ├── webhook.js
+# │   └── utils.js
+# ├── lib/
+# │   ├── amazon.js
+# │   └── flipkart.js
+# ├── package.json
+# ├── vercel.json
+# ├── .gitignore
+# └── README_DEPLOY.md
+
+git add .
+git commit -m "Initial commit: WhatsApp price-comparison bot scaffolding"
+git push origin main
